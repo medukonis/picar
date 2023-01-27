@@ -54,7 +54,7 @@ def scan():
 def move_forward(speed):
     fc.forward(speed)
     print("moving forward") #debug
-    time.sleep(0.5)
+    time.sleep(1)
     stop()
 
 ##################################################
@@ -121,7 +121,7 @@ def back_up(speed):
 #           issues the command to stop all motors.
 ###################################################
 def stop():
-    print("all stop") #debug
+    print("stop") #debug
     fc.stop()
 
 ###################################################
